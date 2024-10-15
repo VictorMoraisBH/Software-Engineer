@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.fetchContacts = void 0;
-const blipService_1 = require("../services/blipService");
+const blipService_1 = require("../services/utils/blipService");
 const fetchContacts = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     var _a;
     const apiKey = (_a = req.headers.authorization) === null || _a === void 0 ? void 0 : _a.split(' ')[1];
